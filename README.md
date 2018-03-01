@@ -56,12 +56,6 @@ Check also: https://github.com/markets/awesome-ruby
 	- [Rails Reading](#rails-reading)
 - [Contributing](#contributing)
 
-## Package Management
-*Libraries for package and dependency management.*
-
-* [Bundler](http://bundler.io/) - The best way to manage your application's dependencies.
-* [Bower Rails](https://github.com/42dev/bower-rails) - A Bower support for Rails projects.
-
 ## Templating
 *Libraries and tools for templating.*
 
@@ -97,11 +91,6 @@ Check also: https://github.com/markets/awesome-ruby
 
 * [MailCheck](https://github.com/mailcheck/mailcheck) - Reduce user-misspelled email addresses in your forms.
 
-## ETL - Extract-Transform-Load
-*Data-processing libraries.*
-
-* [Kiba](https://github.com/thbar/kiba) - the ETL framework for Ruby.
-
 ## Files
 *Libraries for file manipulation and MIME type detection.*
 
@@ -114,16 +103,6 @@ Check also: https://github.com/markets/awesome-ruby
 
 * [MiniMagick](https://github.com/minimagick/minimagick) - An image manipulation library.
 * [CarrierWave::BombShelter](https://github.com/DarthSim/carrierwave-bombshelter) - is a module which protects your uploaders from image bombs. It checks pixel dimensions of uploaded image before ImageMagick touches it.
-
-## Testing
-*Libraries for testing codebases and generating test data.*
-
-* [RSpec](http://rspec.info/) - A testing tool for the Ruby programming language.
-
-## Documentation
-*Libraries for generating project documentation.*
-
-* [SAMI](https://github.com/fabpot/Sami) - An API documentation generator.
 
 ## Security
 *Libraries for security, encrypting data and scanning for vulnerabilities.*
@@ -176,30 +155,12 @@ Check also: https://github.com/markets/awesome-ruby
 * [Meta Tags](https://github.com/kpumuk/meta-tags) - Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
 * [Human Power](https://github.com/lassebunk/human_power) - Generate robots.txt
 
-## Meta
-*Libraries for MetaData.*
-
-* [Preloadables](https://github.com/jacopotarantino/preloadables) - is exposing a set of view helpers for outputting HTML metadata related to domains, assets and pages that you would like to preload/prerender.
-
 ## PDF
 *Libraries and software for working with PDF files.*
 
 * [Prawn](https://github.com/prawnpdf/prawn) - A PDF generation library.
 * [Wicked PDF](https://github.com/mileszs/wicked_pdf) - A tool to convert HTML to PDF.
 * [Grimm](https://github.com/jonmagic/grim) - A tool for extracting pages from pdf as images and text as strings.
-
-## Performance
-*Libraries to dubug and solve performance issues*
-
-* [Alocation Tracer](https://github.com/ko1/allocation_tracer) - allows to trace object allocation.
-* [Memory Profiler](https://github.com/SamSaffron/memory_profiler) - A memory profiler for Ruby & Rails apps.
-* [Derailed Benchmarks](https://github.com/schneems/derailed_benchmarks) - Benchmarks for your whole Rails app.
-
-## Analytics
-*Libraries for user analytics.*
-
-* [Marketable for Devise](https://github.com/n8/devise_marketable) - Marketable lets Devise users easily store where your user came from and where they were going in your Rails app.
-* [Meta events](https://github.com/swiftype/meta_events) - is a Ruby gem that sits on top of a user-centric analytics system like Mixpanel and provides structure, documentation, and a historical record to events, and a powerful properties system that makes it easy to pass large numbers of consistent properties with your events.
 
 ## Optimization
 *Libraries to optimize your rails application.*
@@ -210,30 +171,7 @@ Check also: https://github.com/markets/awesome-ruby
 ## Production
 *Tools for production*
 
-* [Errbit](https://github.com/errbit/errbit) - error catcher
 * [Peek](https://github.com/peek/peek) - Take a peek into your Rails applications
-
-## Command Line
-*Libraries for building command line utilities.*
-
-TBD
-
-## Authentication
-*Libraries for implementing authentications schemes.*
-
-* [Devise](https://github.com/plataformatec/devise) - Flexible authentication solution for Rails with Warden.
-
-## Authorization
-*Libraries for implementing authorization schemes.*
-
-* [Pundit](https://github.com/elabs/pundit) - Minimal authorization through OO design and pure Ruby classes
-* [The Role](https://github.com/the-teacher/the_role) - Authorization for Rails + GUI. Semantic, Flexible, Lightweight
-* [CanCanCan](https://github.com/CanCanCommunity/cancancan) - CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access.
-
-## Text and Numbers
-*Libraries for parsing and manipulating text and numbers.*
-
-TBD
 
 ## Filtering and Validation
 *Libraries for filtering and validating data.*
@@ -245,104 +183,17 @@ TBD
 
 * [Apipie](https://github.com/Apipie/apipie-rails) - API Documentation Tool
 
-## Caching
-*Libraries for caching data.*
-
-TBD
-
-## Data Structure and Storage
-*Libraries that implement data structure or storage techniques.*
-
-TBD
-
-## Notifications
-*Libraries for working with notification software.*
-
-TBD
-
 ## Deployment
 
-* [Capistrano](https://github.com/capistrano/capistrano) - Remote multi-server automation tool.
-* [Capistrano Unicorn](https://github.com/tablexi/capistrano3-unicorn) - Unicorn tasks for Capistrano.
 * [Capistrano Fifty Five](https://github.com/mattbrictson/capistrano-fiftyfive) - recipes for use with capistrano to automate installation of a full-stack Rails environment
 * [Airbrussh](https://github.com/mattbrictson/airbrussh) - pretties up your SSHKit and Capistrano output
-* [Pinglish](https://github.com/jbarnette/pinglish) - A simple Rack middleware for checking application health.
-
-## Parser
-*Libraries for parsing*
-
-* [Parslet](https://kschiess.github.io/parslet/get-started.html) - A small Ruby library for constructing parsers in the PEG (Parsing Expression Grammar) fashion.
-
-## Third Party APIs
-*Libraries for accessing third party APIs.*
-
-TBD
-
-## Miscellaneous
-*Useful libraries or tools that don't fit in the categories above.*
-
-TBD
-
-## Development Software
-*Software for creating a development environment.*
-
-* [HomeBrew](http://mxcl.github.com/homebrew/) - A package manager for OSX.
-* [Vagrant](http://www.vagrantup.com/) - A portable development environment utility.
-* [Puppet](http://puppetlabs.com/) - A server automation framework and application.
-* [Chef](https://github.com/opscode/chef) - A systems integration framework.
-* [Backup](https://github.com/meskyanichi/backup) - A server backup tool.
 
 ## WYSIWIG
 *WYSIWIG editors*
 
-* [Bootsy](https://github.com/volmer/bootsy) - is a WYSIWYG editor for Rails based on Bootstrap3-wysihtml5 with image uploads using CarrierWave
-* [Mercury Editor 2](https://github.com/jejacks0n/mercury/tree/mercury2) - full featured HTML5 editor
 * [Froala jQuery WYSIWYG](https://github.com/froala/wysiwyg-rails) - (**Comercial**) provides the Froala WYSIWYG HTML Editor javascript and stylesheets as a Rails engine for use with the asset pipeline
 * [Sir Trevor](https://github.com/madebymany/sir-trevor-rails) - Medium like editor
 
 ## Background Job
 
 * [Sidekiq Statistics](https://github.com/davydovanton/sidekiq-statistic) - Improved display of statistics for your sidekiq workers and jobs.
-
-## Visual Goodies
-*Client side tools integrated with Rails*
-
-* [NProgress](https://github.com/caarlos0/nprogress-rails) - [nprogress library](https://github.com/rstacruz/nprogress) progress bar
-  wrapper
-
-# Resources
-Various resources, such as books, websites and articles, for improving your Rails development skills and knowledge.
-
-## Websites
-*Useful web and PHP-related websites and newsletters.*
-
-TBD
-
-## Books
-*Fantastic books and e-books.*
-
-TBD
-
-## Web Reading
-*General web-development-related reading materials.*
-
-* [C is for Cookie, H is for Hacker](http://www.troyhunt.com/2013/03/c-is-for-cookie-h-is-for-hacker.html) - An article about cookies and security.
-* [You Blew It Loading Your Login Form Over HTTP](http://www.troyhunt.com/2013/05/your-login-form-posts-to-https-but-you.html) - An article about using HTTPS correctly with login forms.
-* [How HTTPS Secures Your Connection](http://blog.hartleybrody.com/https-certificates/) - An article explaining how TLS/SSL secures your connection.
-* [How to Build a Secure Remember Me Feature](http://www.troyhunt.com/2013/07/how-to-build-and-how-not-to-build.html) - An article on how to build a secure remember me feature.
-* [A Beginners Guide to HTTP Cache Headers](http://www.mobify.com/blog/beginners-guide-to-http-cache-headers/) - An article about HTTP cache headers.
-* Beyond Series [1](http://blog.ircmaxell.com/2013/09/beyond-design-patterns.html) [2](http://blog.ircmaxell.com/2013/11/beyond-inheritance.html) [3](http://blog.ircmaxell.com/2013/11/beyond-object-oriented-programming.html) [4](http://blog.ircmaxell.com/2013/11/beyond-clean-code.html) - A series of articles about programming by Anthony Ferrara.
-* [Semantic Versioning](http://semver.org/) - A website explaining semantic versioning.
-* [Atlassian Git Tutorials](https://www.atlassian.com/git) - A series of Git tutorials.
-
-## Rails Reading
-*Rails-releated reading materials.*
-
-TBD
-
-# Credits
-
-TravisCI validation code by [jondot](https://github.com/jondot). Origin: https://github.com/jondot/awesome-react-native
-
-# Contributing
-Please see [CONTRIBUTING](https://github.com/dpaluy/awesome-rails/blob/master/CONTRIBUTING.md) for details.
